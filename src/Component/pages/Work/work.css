@@ -1,0 +1,74 @@
+
+
+.work_container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.8rem;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.work_filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .75rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+
+.work_item {
+  cursor: pointer;
+  color: var(--title-color);
+  padding: 5rem 7rem;
+  font-weight: var(--font-medium);
+  border-radius: .5rem;
+  
+
+}
+
+.active-work:hover {
+  background-color: var(--skin-color);
+  color: var(--title-color);
+}
+
+.work_card {
+  background-color: var(--box-color);
+  padding: 1.25rem;
+  border-radius: .5rem;
+}
+
+.protfolio_items-details {
+  display: none;
+}
+
+.work_img {
+  border-radius: .5rem;
+  margin-bottom: var(--mb-1);
+}
+
+.work_title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-5);
+}
+
+.work_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--skin-color);
+  column-gap: .25rem;
+  cursor: pointer;
+}
+
+.work_button-icon {
+  font-size: 1rem;
+  transition: .3s;
+
+}
+
+.work_button:hover .work_button-icon {
+  transform: translateX(.25rem);
+}
+
+/* swipe slider */

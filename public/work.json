@@ -1,0 +1,52 @@
+ [
+   
+    
+        {
+            "img":"https://i.ibb.co/nw7x48T/work-1.jpg" ,
+            "date": "4-April-2022",
+          
+            "tecnology": "React , nodejs,mongodb",
+           "role": "Full Stack",
+            "view": "https://green-van-8f6c2.firebaseapp.com/"
+        },
+        {
+            "img":"https://i.ibb.co/PwJTfcz/work-2.jpg"  ,
+            "date": "10-june-2023",
+            "tecnology": "React , nodejs,mongodb",
+           "role": "Full Stack",
+            "view": "https://elegant-faloodeh-de8f9e.netlify.app/" 
+        },
+        {
+            "img":"https://i.ibb.co/XVhTxyK/work-3.jpg"  ,
+            "date": "4-April-2022",
+            "tecnology": "Html,Css,Javascript",
+           "role": "frontend",
+            "view": "https://merry-cucurucho-8f5b6b.netlify.app/"
+        },
+        {
+            "img":"https://i.ibb.co/LnXhCPG/work-4.jpg"  ,
+            "date": "4-April-2022",
+           "tecnology": "React , nodejs,mongodb",
+           "role": "Full Stack",
+            "view": "https://green-van-8f6c2.firebaseapp.com/"
+        },
+        {
+            "img":"https://i.ibb.co/Drxw4hs/work-5.jpg"  ,
+            "date": "4-April-2022",
+           "tecnology": "React , nodejs,mongodb",
+           "role": "Full Stack",
+            "view": "https://green-van-8f6c2.firebaseapp.com/"
+        },
+        {
+            "img":"https://i.ibb.co/0h87kWk/work-6.jpg"  ,
+            "date": "4-April-2022",
+            "tecnology": "React , nodejs,mongodb",
+           "role": "Full Stack",
+            "view": "https://green-van-8f6c2.firebaseapp.com/"
+        }
+
+ 
+
+ ]
+ 
+

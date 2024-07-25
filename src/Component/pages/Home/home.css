@@ -1,3 +1,4 @@
+
 body {
     background-color: white;
     margin: 0;
@@ -10,7 +11,7 @@ body {
     margin: 100px 0 0 170px;
     border: 7px solid #F9BE08;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background-image: url(https://i.ibb.co/dfXyvH1/23358.jpg);
+    background-image: url(../../../image/23358.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

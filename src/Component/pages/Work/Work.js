@@ -8,6 +8,8 @@ import { DiCss3, DiJavascript1, DiReact, DiMongodb } from "react-icons/di";
 import { FaSuitcaseRolling } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import greenven from "../../../image/greenven.png"
+import overstock from "../../../image/overstock.png"
 import "./work.css";
 
 import AOS from "aos";
@@ -42,90 +44,35 @@ const Work = () => {
     setIsExpanded(!isExpanded);
   };
   const worklist = [
-    // Portflio for BBA student
-    {
-      img: "https://i.ibb.co/bFJxfZ4/screencapture-effervescent-banoffee-885866-netlify-app-2023-10-15-18-31-01.png",
-      date: "15-october-2022",
-      name: "NILY'S PRTFOLIO(BBA STUDENT) ",
-      discribe:
-        "Experience the fusion of culinary excellence and cutting-edge technology at NILOYS portfolio  . this website, meticulously crafted with React, Tailwind CSS, React Icons, and Daisy UI, offers a seamless and visually stunning way to explore and savor the delectable offerings.",
-
-      role: "frontend",
-      view: "https://effervescent-banoffee-885866.netlify.app/",
-      github: "https://github.com/mohiuddintanvir/mohiuddin-potfolio",
-    },
-    // BonBon
-    {
-      img: "https://i.ibb.co/brGdXPW/Bobon-resturen.png",
-      date: "4-April-2022",
-      name: "BONBON RESTURENT & CAFE (MENU) ",
-      discribe:
-        "Experience the fusion of culinary excellence and cutting-edge technology at BOBON Cafe & Restaurant's online platform. this website, meticulously crafted with React, Tailwind CSS, React Icons, and Daisy UI, offers a seamless and visually stunning way to explore and savor the delectable offerings.",
-
-      role: "Full Stack",
-      view: "https://zesty-boba-0547e0.netlify.app/",
-      github: "https://github.com/mohiuddintanvir/bonbn-menu",
-    },
+    
+  
     // GreenVen
     {
-      img: "https://i.ibb.co/8YZ0JBy/Greenven.png",
+      img: greenven,
       date: "4-April-2022",
       name: "GREENVEN (GROSERY WEBSITE)",
       discribe:
         "Experience the future of grocery shopping with Greenven, The one-stop destination for fresh, high-quality produce and pantry essentials. This website, powered by state-of-the-art technologies including React, Tailwind CSS, React Icons, Daisy UI, Node.js, Express, and MongoDB, offers a seamless and efficient way to stock up on peples household needs.",
       tecnology: "React , nodejs,mongodb",
       role: "Full Stack",
-      view: "https://green-van-8f6c2.firebaseapp.com/",
+      view: "https://rainbow-custard-0131d8.netlify.app/",
       github: "https://github.com/mohiuddintanvir/green-van-client",
     },
     // cloud cloth
-    {
-      img: "https://i.ibb.co/XbRTTSN/Rymo.png",
-      date: "10-june-2023",
-      name: "RYMO (CLOUD CLOTH WEBSITE)",
-      discribe:
-        "Elevate the style and upgrade the wardrobe with Rymo, The ultimate online fashion haven. This website, powered by cutting-edge technologies including React, Tailwind CSS, React Icons, Daisy UI, Node.js, Express, and MongoDB, provides a seamless and stylish way to discover and shop for the latest trends in clothing.",
-      tecnology: "React , nodejs,mongodb",
-      role: "Full Stack",
-      view: "https://elegant-faloodeh-de8f9e.netlify.app/",
-      github: "https://github.com/mohiuddintanvir/t-shirt-client",
-    },
-    // tea
-    {
-      img: "https://i.ibb.co/J5rzXHQ/Coffee.png",
-      date: "4-April-2022",
-      name: " COFE (COFFEE SHOP CLOUD)",
-      discribe:
-        "Awaken the senses and savor the aroma of freshly brewed coffee with Cofe, your go-to destination for premium coffee beans and exquisite brews. This website, powered by the latest technologies including Html & Css offers a delightful and convenient way to explore and purchase your favorite coffee blends.",
-      tecnology: "Html,Css,Javascript",
-      role: "frontend",
-      view: "https://merry-cucurucho-8f5b6b.netlify.app/",
-      github: "https://github.com/mohiuddintanvir/cloud-tea-shop",
-    },
+   
     // overstock
     {
-      img: "https://i.ibb.co/cFyHs9V/Over-Stock.png",
+      img: overstock,
       date: "4-April-2022",
       name: "OVERSTOCK (CLOUD SECONDHAND SHOE MARKET)",
       discribe:
         "Step back in time and rediscover classic footwear at Overstock, your premier online destination for vintage shoe enthusiasts. This website, meticulously crafted with state-of-the-art technologies including React, Tailwind CSS, React Icons, Daisy UI, Node.js, Express, and MongoDB, offers a seamless and stylish way to explore and purchase timeless shoe styles.",
       tecnology: "React , nodejs,mongodb",
       role: "Full Stack",
-      view: "https://over-stck-client.firebaseapp.com/ ",
+      view: "https://storied-gecko-809cb9.netlify.app/",
       github: "https://github.com/mohiuddintanvir/overstock-client",
     },
-    // pizza
-    {
-      img: "https://i.ibb.co/Cnq0RHq/pizza.png",
-      date: "4-April-2022",
-      name: "PIZZA KOI (CLOUD PIZZA SHOP)",
-      discribe:
-        "Satisfy the pizza cravings and experience a slice of pizza heaven with Pizza Koi, The ultimate online destination for mouthwatering pies. This website, meticulously crafted with cutting-edge technologies including React, Tailwind CSS, React Icons, Daisy UI, Node.js, Express, and MongoDB, offers a seamless and savory way to explore and order your favorite pizzas.",
-      tecnology: "React , nodejs,mongodb",
-      role: "Full Stack",
-      view: "https://leafy-kheer-d3dd6b.netlify.app/",
-      github: "https://github.com/mohiuddintanvir/cloud-pizza-kitchen",
-    },
+    
   ];
 
   const [work, setWork] = useState(worklist);
@@ -161,19 +108,7 @@ const Work = () => {
           Recent Projects
         </h2>
         <div className="mb-10 ">
-          <div className="mt-5" id="work">
-            <div className="flex justify-around gap-4 lg:ms-20 mb-5 text-black font-bold">
-              <button className="" onClick={() => setWork(worklist)}>
-                All
-              </button>
-              <button className="" onClick={() => filterItrm("frontend")}>
-                Front-end
-              </button>
-              <button className="" onClick={() => filterItrm("Full Stack")}>
-             Full Stack
-              </button>
-            </div>
-          </div>
+         
           {/* projects side  */}
 
           <div className="grid lg:grid-cols-1 md:grid-cols-2 grid-cols-1 gap-5 bg-white">

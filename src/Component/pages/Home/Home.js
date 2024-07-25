@@ -34,12 +34,11 @@ const Home = () => {
             <div className=" lg:mt-40">
               <div className="">
                  <p
-                className="font-PlayfairDisplaySC font-[400] lg:font-[700] lg:text-[5rem] md:ms-10 md:font-[700] md:text-[3rem] flex justify-center "
+                className="font-PlayfairDisplaySC font-[400] lg:font-[700] lg:text-[5rem] md:ms-10 md:font-[700] md:text-[3rem] flex justify-center lg:ml-2 "
                 data-aos="fade-up"
                 data-aos-duration="1200"
               >
-              
-                 Mern Stack Developer
+             Mern Stack Developer
               </p>
               <h1
                 className="lg:text-[1.25rem] md:flex md:justify-center font-Lato lg:font-[300] lg:ms-0 ms-3 "
@@ -51,13 +50,7 @@ const Home = () => {
               </h1>
                <div className="">
                 <div className="" data-aos="fade-up" data-aos-duration="2000">
-                  <ul className="lg:flex hidden lg:justify-start justify-center gap-4 text-[#F9BE08] lg:text-3xl lg:gap-2 lg:mt-3">
-                    {socilaLink.map((social) => (
-                      <li className="">
-                        <ion-icon name={social.name}></ion-icon>
-                      </li>
-                    ))}
-                  </ul>
+                  
                   <div className="lg:flex   lg:mt-20  mt-10 gap-3">
                     <div className="md:ms-[13rem]">
                       <h1 className="font-PlayfairDisplaySC text-[.75rem] lg:font-[500] md:text-xl  lg:text-[1.25rem] lg:ms-[0rem] ms-[8rem] lg:mb-[0rem] mb-3">
